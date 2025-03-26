@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './projects.component.css'
 })
 export class ProjectsComponent {
-
+    project1: string = 'assets/Project1.png';
 }

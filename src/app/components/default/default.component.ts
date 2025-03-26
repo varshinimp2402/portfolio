@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component  } from '@angular/core';
 
 @Component({
   selector: 'app-default',
@@ -8,5 +8,8 @@ import { Component } from '@angular/core';
   styleUrl: './default.component.css'
 })
 export class DefaultComponent {
-
+  leetcode: string = 'assets/leetcode.webp';
+  home: string = 'assets/Home.png';
+  
+  
 }

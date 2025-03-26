@@ -1,5 +1,5 @@
-<html>
-    <body>
+<html >
+    <body [ngStyle]="{'background-image': 'url(' + home + ')'}" class="dynamic-bg">
         <div class="bg-img">
         <div class="Intro">
             <h1>
@@ -16,7 +16,7 @@
                 <button style="font-size:24px;background-color: transparent;color:blue;border:none" ><i class="fa fa-linkedin-square"></i></button>
               </a>
               <a href="https://leetcode.com/u/varshinimp2402/" target="_blank">
-                <button style="background-color: transparent;border:none;" ><img style="width: 24px ;" src="../../../assets/leetcode.webp"></button>
+                <button style="background-color: transparent;border:none;" ><img style="width: 24px ;" [src]="leetcode"></button>
               </a>
             </div>
             </div>

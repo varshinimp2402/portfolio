@@ -9,6 +9,8 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
   imagePath: string = 'assets/me.jpeg';
+  SITlogo: string = 'assets/sit_logo.png';
+  CSUlogo: string = 'assets/csu.png';
   currentSection: string = 'info'; // Default section
 
   showSection(section: string) {
