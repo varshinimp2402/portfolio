@@ -1,0 +1,13 @@
+.content {
+    padding-top: 60px; /* Adjust according to your navbar height */
+  }
+  .home-background {
+    background-image: url('../assets/Home.png'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
